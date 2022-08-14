@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+.main-content {
+	padding-top: 20px;
+	
+}
+
+.info-card {
+	padding: 50px 30px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.281);
+}
+.info-card .info-card_icon {
+	height: 75px;
+	width: 75px;
+	border: 5px solid #03a9f4;
+	border-radius: 125px;
+}
+.info-card .info-card_icon i {
+	font-size: 50px;
+	color: #03a9f4;
+}
+.info-card .info-card_icon .info-card_img-icon {
+	height: 60px;
+	width: 60px;
+	object-fit: contain;
+}
+.info-card .btn {
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.info-card--danger .info-card_icon {
+	border-color: #f44336;
+}
+.info-card--danger .info-card_icon i {
+	color: #f44336;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.main-content{
+		padding-top: 25px;
+		
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.main-content{
+		padding-top: 25px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.main-content{
+		padding-top: 25px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.main-content{
+		padding-top: 25px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.main-content{
+		padding-top: 75px;
+	}
+}
