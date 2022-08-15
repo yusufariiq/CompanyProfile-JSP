@@ -1,6 +1,4 @@
 # CompanyProfile-JSP
-
-# CompanyProfile-JSP
 Sebuah project kelompok tentang Company Profile yang dimana terdapat fitur CRUD atau Create, Read, Update, Delete dengan menggunakan JSP(Java Servlet Page)
 
 
